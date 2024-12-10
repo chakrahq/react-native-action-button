@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mastermoo/react-native-action-button.git"
+    "url": "https://github.com/chakrahq/react-native-action-button.git"
   },
   "keywords": [
     "react-native",
@@ -17,15 +17,12 @@
     "multi-action-button"
   ],
   "peerDependencies": {
-    "react-native": ">=0.11"
+    "react-native": ">=0.70"
   },
-  "author": "Yousef Kamawall",
+  "author": "ChakraHQ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mastermoo/react-native-action-button/issues"
+    "url": "https://github.com/chakrahq/react-native-action-button/issues"
   },
-  "homepage": "https://github.com/mastermoo/react-native-action-button",
-  "dependencies": {
-    "prop-types": "^15.5.10"
-  }
+  "homepage": "https://github.com/chakrahq/react-native-action-button"
 }
