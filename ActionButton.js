@@ -1,5 +1,4 @@
 import React, { Component, useState, useRef, useEffect } from "react";
-import PropTypes from "prop-types";
 import {
   StyleSheet,
   Text,
@@ -17,7 +16,7 @@ import {
   DEFAULT_ACTIVE_OPACITY
 } from "./shared";
 
-const ActionButton = props => {
+const ActionButton = (props) => {
   const [, setResetToken] = useState(props.resetToken);
   const [active, setActive] = useState(props.active);
   const useNativeDriver = props.useNativeDriver || false;
@@ -408,4 +407,5 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent"
   }
 });
+
 export default ActionButton;

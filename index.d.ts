@@ -1,12 +1,12 @@
 import * as React from 'react'
 import {
   ViewStyle,
-  ViewProperties,
+  ViewProps,
   TextStyle
 } from 'react-native'
 
 
-export interface ActionButtonProperties extends ViewProperties {
+export interface ActionButtonProperties extends ViewProps {
   resetToken?: any,
   active?: boolean,
 

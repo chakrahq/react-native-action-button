@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import {
   StyleSheet,
   Text,
@@ -36,17 +35,6 @@ export default class ActionButtonItem extends Component {
       fixNativeFeedbackRadius: false,
       nativeFeedbackRippleColor: "rgba(255,255,255,0.75)",
       numberOfLines: 1,
-    };
-  }
-
-  static get propTypes() {
-    return {
-      active: PropTypes.bool,
-      useNativeFeedback: PropTypes.bool,
-      fixNativeFeedbackRadius: PropTypes.bool,
-      nativeFeedbackRippleColor: PropTypes.string,
-      activeOpacity: PropTypes.number,
-      numberOfLines: PropTypes.number,
     };
   }
 
